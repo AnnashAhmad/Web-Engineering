@@ -1,78 +1,65 @@
-body{
-    font-family:arial;
-  align-items: center;
+body {
+    align-items: center;
   height: 100vh;
-  background: rgb(0, 3, 7);
-}
-header, footer{
-  background: #b1b1bb;
-  height: 25vh;
-}
-.login-page {
-  width: 360px;
-  padding: 22px;
-  margin: auto;
+    background: #9c9ea10e;
+    font-family: "Arial", sans-serif;
+  }
+  header, footer{
+    background: #b1b1bb;
+    height: 25vh;
+  }
   
-}
-.form {
-  position: relative;
-  background: #000007;
-  box-align: center;
-  width: 660px;
-  margin: auto;
-  padding: 45px;
-  text-align: center;
-  border-radius: 20px;
-}
-.form input {
-   
-  outline: 0;
-  background: #f2f2f2;
-  width: 100%;
-  border: 0;
-  margin: 0 0 15px;
-  padding: 15px;
-  box-sizing: border-box;
-  font-size: 14px;
-}
-.form button {
-  background: #4CAF50;
-  width: 100%;
-  border: 0;
-  padding: 15px;
-  color: #ffffff;
-  font-size: 14px;
-  cursor: pointer;
-}
-.form button:hover,.form button:active,.form button:focus {
-  background: #43A047;
-}
-.form button2 {
-  outline: 0;
-  background: #3b5998;
-  width: 100%;
-  border: 0;
-  padding: 15px;
-  color: #FFFFFF;
-  font-size: 14px;
-  cursor: pointer;
-}
-.form button3 {
-  outline: 0;
-  background:#00acee;
-  width: 100%;
-  border: 0;
-  padding: 15px;
-  color: #FFFFFF;
-  font-size: 14px;
-  cursor: pointer;
-}
-.form .message {
-  margin: 15px 0 0;
-  color: #b3b3b3;
-  font-size: 15px;
-}
-.form .message a {
-  color: #1706b1;
-  text-decoration: none;
-}
+  .login-box {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: rgb(14, 12, 12);
+  }
+  form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 15px;
+  }
+  
+  h1 {
+    color: gray;
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  .signup-box {
+    width: 582px;
+    height: 448px;
+    margin: auto;
+    background-color: rgb(24, 22, 22);
+    border-radius: 3px;
+    text-align: center;
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 20px;
+    
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid rgb(98, 132, 196);
+    border-radius: 6px;
+    outline: none;
+  }
+  form button {
+    background: #216dbe;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  form button:hover,.form button:active,.form button:focus {
+    background: #6b6dd1;
+  }

@@ -1,88 +1,78 @@
-html{
-    margin: 0em 4em 0.5em 4em;
-    
-}
-
-
 body{
-    background-color: rgb(184, 178, 124);
+    font-family:arial;
+  align-items: center;
+  height: 100vh;
+  background: rgb(0, 3, 7);
 }
-
-h1{
-    font-size: 35px;
-    color: rgb(2, 10, 36);
-}
-
-p{
-    margin: 2px;
-
-}
-
-hr{
-    border: .5px solid black;
-    margin: 3px;
-}
-
-nav{
-    background-color: #0d1a49;
-    padding: 4px;
-}
-
-.maindiv{
-    background-color: rgb(159, 172, 230);
-    padding: 10px;
-    margin: 20px 0px 20px 0px;
-}
-
-.centralpark{
-    border: 2px solid rgb(58, 55, 55);
-    padding: 3px;
-}
-
-ul{
-    list-style-type: none;
-}
-
-a{
-    color: rgb(108, 102, 126);
-}
-
-
 header, footer{
-    color: rgb(211, 219, 137);
-    background-color: rgba(203, 211, 129, 0.973);
-    padding: 5px;
-
+  background: #b1b1bb;
+  height: 25vh;
 }
-
-footer{
-    padding: 10px;
-    
+.login-page {
+  width: 360px;
+  padding: 22px;
+  margin: auto;
+  
 }
-
-.share{
-    background-color: rgba(170, 179, 124, 0.644);
-    width: 85%;
-    border-radius: 2px;
-    shape-outside: 2px;
-    margin: 0px 0px 30px 0px;
-    padding: 5px;
+.form {
+  position: relative;
+  background: #000007;
+  box-align: center;
+  width: 660px;
+  margin: auto;
+  padding: 45px;
+  text-align: center;
+  border-radius: 20px;
 }
-
-.related-images{
-    margin: 20px 30px ;
-    padding: 20px 30px ;
+.form input {
+   
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
 }
-
-.related-images .related-image1{
-    height: 200px;
-    width: 200px;
+.form button {
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
 }
-.related-images .related-image2{
-    height: 200px;
-    width: 200px;
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
 }
-.related-images .related-image3{
-    height: 200px;
-    width: 200px;
+.form button2 {
+  outline: 0;
+  background: #3b5998;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+.form button3 {
+  outline: 0;
+  background:#00acee;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 15px;
+}
+.form .message a {
+  color: #1706b1;
+  text-decoration: none;
 }
